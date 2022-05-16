@@ -39,6 +39,7 @@ header .container nav .menu-social {
 }
 header .container nav .menu-social img {
   transition: all 0.2s;
+  color:#fd9902;
 }
 header .container nav .menu-social img:hover {
   filter: brightness(90%);
