@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans JP",sans-serif ;
+}
+
+/* background em toda section*/
+#sobre-mim {
+    
+	background: #151515 url(../img/bkdark2.png) no-repeat center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	min-height: 940px;
+	display: table;
+	position: relative;
+	text-align: center;
+}
+/* imagem imagem imagem imagem imagem imagem imagem imagem imagem*/
+section#sobre-mim  img#fabiofoto{
+  width: 16%;
+  margin-left: auto;
+  position: absolute;
+  top: 140px;
+  right: 100px;
+  bottom: 45px; 
+  border:double;
+  border-color: #d4d3d3;
+  }
+  section#sobre-mim  img#figurinha{
+    width: 20%;
+    margin-left: auto;
+    position: absolute;
+    top: 140px;
+    right: 1490px;
+    bottom: 45px; 
+    border:double;
+    border-color: #d4d3d3;
+    }
+    section#sobre-mim  img#musico{
+      width: 20%;
+      
+      margin-left: auto;
+      position: absolute;
+      top: 500px;
+      right: 1490px;
+      bottom: 45px; 
+      border:double;
+      border-color: #d4d3d3;
+      }
+     /*  section#sobre-mim  img#jiujitsu{
+        width: 10%;
+        height:30%;
+        margin-left: auto;
+        position: absolute;
+        top: 500px;
+        
+        right: 100px;
+        bottom: 45px; 
+        border:double;
+        border-color: #d4d3d3;
+        } */
+
+
+section#sobre-mim  nav ul#menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}    
+
+section#sobre-mim  nav ul#menu li{
+  padding: 1rem;
+}
+
+section#sobre-mim  nav ul#menu li a{
+  text-decoration:none;
+  color: #fff;
+  font-size:1.5rem;
+  margin-top: 10px;
+
+}
+section#sobre-mim  ul#menu li a{
+  text-decoration: none; /*tira o sublinhado de toda decoração o link*/
+  padding: 1rem 2rem 1rem 2rem ;
+  display:inline-block;
+  font-size: 3rem;
+  color: rgb(39, 36, 36); 
+  transition: color .4s ease-out ;  
+  margin-top: 190px;
+  border: solid;
+ }
+ section#sobre-mim ul#menu a:hover{
+ color: rgb(255, 255, 255);
+ transition:2s;
+ background-color: rgba(255,255,255,0);	
+ border-top: #fff;
+ border-bottom: #fff;
+}
+    
+section#intro ul#menu a i{
+    transition: all .4s ease-out;
+}     
+section#intro ul a i:hover{
+transform: scale(1.3);
+}  
+section#sobre-mim div#paragrafo p{
+  font-family: 'cursiva';
+  display: flex;
+  justify-content:center; 
+  font-size: 1.5vw;
+  position: relative;
+  top:155px;
+   text-align:center;
+   color: #d4d3d3;
+   line-height: 2.5rem;
+   text-shadow: 0 0 50px #000 ;
+  }
+/*   section#intro div#sociais{
+    display: block;
+    margin: 0 auto; */
+section#sobre-mim div#sociais{
+  display: flex;
+  justify-content:center;
+  position: relative;
+  top:155px;
+}  
+
+section#sobre-mim div#sociais ul#icons{
+    padding:4.7rem;
+}
+section#sobre-mim div#sociais ul#icons a{
+    font-size: 3rem;
+    text-decoration:none;
+    padding:2rem;
+    color: rgba(255, 250, 250, 0.178);
+}
+section#sobre-mim div#sociais ul#icons a:hover{
+    color: rgb(255, 250, 250);    
+ 
+ 
+}
+
+
