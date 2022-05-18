@@ -1,18 +1,27 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Nunito+Sans:wght@200&display=swap);
+
 /* Header */
 header{
     position: center;
-    margin: 20;
+    margin: 1rem;
     width: 100%;
-    padding: 0rem 0px
+    padding: 2rem 
+}
+:root{
+    font-size: 62.5%;
+    font-family: Montserrat ;
 }
 
+img{
+    border-radius: 20px;
+}
 
 /* MENU */
 #intro {
 	background: black ;
 	width: 100%;
 	height: 100%;
-	min-height: 720px;
+	min-height: 10rem;
 	text-align: center;
 }
 
@@ -28,60 +37,43 @@ section#intro nav ul#menu li{
 
 section#intro nav ul#menu li a{
     color: blueviolet;
-    font-size:1.5rem;
-    margin-top: 15px;
+    font-size:3rem;
 }  
   
 section#intro ul#menu a{
-    text-decoration: none; /*tira o sublinhado de toda decoração o link*/
+    text-decoration: none; 
     padding: 1rem 2rem 1rem 2rem ;
     display:inline-block;
-    font-size: 3rem;
     color: blueviolet; 
-    transition: color .4s ease-out ;  
-    margin-top: 190px;
     border: solid;
    }
 
-       
-   section#intro ul#menu a i{
-       transition: all .4s ease-out;
-   }     
-   section#intro ul a i:hover{
-   transform: scale(1.3);
-   }    
 
  /*INDEX - CORPO*/  
    
  section#intro h1{
     color: blueviolet;
-    font-size: 4.5rem;
-    display: flex;
-    justify-content: center;
- 
+    font-size: 5rem;
+
 }
  section#intro h1:hover{
-     text-shadow: 10px 5px 30px rgb(247, 245, 245) ; 
+     text-shadow: 1.0px 5.0px 3.0px rgb(129, 94, 133) ; 
  }
 
  section#intro h2{
-     margin-top: 50px;
      color: whitesmoke;
-     font-size: 3rem;
+     font-size: 5rem;
 }
 
 section#intro h3{
     color:whitesmoke;
-    font-size: 2rem;
-    margin-top: 0;
+    font-size: 3rem;
+
 }
 section#intro p{
     color:whitesmoke;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
-
-
-
 
 
 
@@ -99,13 +91,13 @@ section#contato h2{
   }
 
 section#contato {
-    margin: 30px 24px
+    margin: 3.0rem 2.4rem
 }
 section#formulario {
-    margin-top: 30px;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 30px;  
+    margin-top: 3.0rem;
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+    margin-bottom: 3.0rem;  
 }
 fieldset{
     border-radius: 20px;
