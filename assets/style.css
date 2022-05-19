@@ -3,12 +3,12 @@
 /* Header */
 header{
     padding: 2rem;  
-    background: black; 
+
 }
 
 :root{
     font-size: 62.5%;
-    font-family: Montserrat ;
+    font-family: Montserrat, sans-serif;
 }
 
 
@@ -17,6 +17,7 @@ header{
 #intro {
     background-image: url(./img/dark-purple-ink-texture.jpg);
     background-size: cover;
+    background-position: unset;
 	min-height: 10rem;
 	text-align: center;
 }
@@ -32,14 +33,14 @@ section#intro nav ul#menu li{
 }
 
 section#intro nav ul#menu li a{
-    color: blueviolet;
+    color: rgb(250, 204, 2);
     font-size:3rem;
 }  
   
 section#intro ul#menu a{
     text-decoration: none; 
     padding: 1rem 2rem 1rem 2rem ;
-    color: blueviolet; 
+    color: rgb(250, 204, 2); 
     border: solid;
    }
 
@@ -47,12 +48,15 @@ section#intro ul#menu a{
  /*INDEX - CORPO*/  
    
  section#intro h1{
-    color: blueviolet;
-    font-size: 5rem;
+    color: rgb(250, 204, 2);
+    font-size: 6rem;
+
+
+
 
 }
  section#intro h1:hover{
-     text-shadow: 1.0px 5.0px 3.0px rgb(129, 94, 133) ; 
+     text-shadow: 1.0px 5.0px 3.0px black ; 
  }
 
  section#intro h2{
@@ -69,7 +73,7 @@ section#intro h4{
     font-size: 1.6rem ;
     background: black;
     color:aliceblue;
-    padding: 2rem 
+    padding: 2rem;
     
 }
 
@@ -90,7 +94,7 @@ section#contato {
 }
 
 section#contato h2{
-    color:blueviolet;
+    color:rgb(250, 204, 2);
     display: flex;
     font-size:xx-large;
   }
@@ -111,7 +115,7 @@ fieldset{
 .button{
     padding: 1rem;
     font-size: 2rem;
-    background-color: blueviolet;
+    background-color: rgb(250, 204, 2);
     margin-top: 2rem;
     margin-bottom: 2rem;
 
@@ -123,15 +127,20 @@ fieldset{
     padding: 3rem;
 }    
 .container{
+    display: flex;
     justify-content: center;
+    padding: 2rem ;
+    
+    
 }
 .bg-box{
     width: 400px;
     height: 400px;
     background-image: url(./img/Foto_pessoal.jpg);
     border: 4px #000 solid;
-    justify-content: center;
     border-radius: 2rem;
+
+    
 
 }
 
