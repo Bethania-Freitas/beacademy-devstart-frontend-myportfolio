@@ -43,6 +43,10 @@ section#intro ul#menu a{
     color: rgb(250, 204, 2); 
     border: solid;
    }
+section#intro ul#menu :hover{
+    border: rgb(250, 204, 2);
+    
+}
 
 
  /*INDEX - CORPO*/  
@@ -74,6 +78,7 @@ section#intro h4{
     background: black;
     color:aliceblue;
     padding: 2rem;
+    
     
 }
 
@@ -118,10 +123,24 @@ fieldset{
     background-color: rgb(250, 204, 2);
     margin-top: 2rem;
     margin-bottom: 2rem;
-
-
+    border-radius: 8px;
+    cursor: pointer;
+}
+.button:hover{
+    background:rgb(197, 164, 18);
+    transition background: 2s;
+    
 }
 
+input{
+    border-radius: 1rem;
+    padding: 0.6rem;
+}
+
+
+textarea{
+    border-radius: 1em;
+}
 
 .midias{
     padding: 3rem;
@@ -138,10 +157,27 @@ fieldset{
     height: 400px;
     background-image: url(./img/Foto_pessoal.jpg);
     border: 4px #000 solid;
-    border-radius: 2rem;
+    border-radius: 2rem;   
 
-    
+}
 
+.redes{
+    padding: 1rem;
+    margin: auto;
+    transition: all 0.4s ease-out;
+}
+
+.icone:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, alpha);
+    transition: all 0.4s ease-out;
+}
+
+.icone{
+    margin: 0px auto;
+    padding: 2rem;
+    transition: all 0.4s ease-out;
 }
 
 
