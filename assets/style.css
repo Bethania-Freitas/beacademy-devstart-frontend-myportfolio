@@ -23,6 +23,8 @@ header{
 }
 
 section#intro nav ul#menu {
+    background-color: #000;
+    padding: 2rem;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -107,16 +109,7 @@ section#contato h2{
 section#contato {
     margin: 3.0rem 2.4rem
 }
-section#formulario {
-    margin-top: 3.0rem;
-    margin-left: 2.4rem;
-    margin-right: 2.4rem;
-    margin-bottom: 3.0rem;  
-}
-fieldset{
-    border-radius: 20px;
-    padding: 2rem ;
-}
+
 .button{
     padding: 1rem;
     font-size: 2rem;
@@ -132,19 +125,34 @@ fieldset{
     
 }
 
-input{
+textarea{
+    height: 3rem;
+    width: 50%;
+    margin: 12px 0;
     border-radius: 1rem;
     padding: 0.6rem;
+    outline: none;
+    background: #000;
+    resize: none;
+
+}
+
+input{
+    height: 3rem;
+    width: 50%;
+    margin: 12px 0;
+    border-radius: 1rem;
+    padding: 0.6rem;
+    outline: none;
+    background: #000;
+    resize: none;
 }
 
 
-textarea{
-    border-radius: 1em;
-}
 
-.midias{
-    padding: 3rem;
-}    
+/* FOTO DO CONTATO */
+  
+
 .container{
     display: flex;
     justify-content: center;
@@ -153,13 +161,18 @@ textarea{
     
 }
 .bg-box{
-    width: 400px;
-    height: 400px;
+    width: 40rem;
+    height: 40rem;
     background-image: url(./img/Foto_pessoal.jpg);
     border: 4px #000 solid;
     border-radius: 2rem;   
 
 }
+
+/* botoes de midias sociais */
+.midias{
+    padding: 3rem;
+}  
 
 .redes{
     padding: 1rem;
@@ -180,4 +193,19 @@ textarea{
     transition: all 0.4s ease-out;
 }
 
+/* responsive */
+
+@media (max-width:670px){
+    section#intro nav ul#menu li a{
+        font-size: 1rem;
+    }
+
+@media (max-width:430px){
+    section#intro nav ul#menu li a{
+        border: none;
+
+
+    }
+
+}
 
